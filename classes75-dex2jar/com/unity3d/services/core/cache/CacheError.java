@@ -1,0 +1,25 @@
+// 
+// Decompiled by Procyon v0.5.34
+// 
+
+package com.unity3d.services.core.cache;
+
+public enum CacheError
+{
+    CACHE_DIRECTORY_DOESNT_EXIST, 
+    CACHE_DIRECTORY_EXISTS, 
+    CACHE_DIRECTORY_NULL, 
+    CACHE_DIRECTORY_TYPE_NULL, 
+    FILE_ALREADY_CACHING, 
+    FILE_IO_ERROR, 
+    FILE_NOT_FOUND, 
+    FILE_STATE_WRONG, 
+    ILLEGAL_STATE, 
+    INVALID_ARGUMENT, 
+    JSON_ERROR, 
+    MALFORMED_URL, 
+    NETWORK_ERROR, 
+    NOT_CACHING, 
+    NO_INTERNET, 
+    UNSUPPORTED_ENCODING;
+}

@@ -1,0 +1,18 @@
+// 
+// Decompiled by Procyon v0.5.34
+// 
+
+package com.google.firebase.internal.api;
+
+import android.support.annotation.NonNull;
+import com.google.android.gms.common.annotation.KeepForSdk;
+import com.google.firebase.FirebaseException;
+
+@KeepForSdk
+public class FirebaseNoSignedInUserException extends FirebaseException
+{
+    @KeepForSdk
+    public FirebaseNoSignedInUserException(@NonNull final String s) {
+        super(s);
+    }
+}

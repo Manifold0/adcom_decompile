@@ -1,0 +1,19 @@
+// 
+// Decompiled by Procyon v0.5.34
+// 
+
+package com.unity3d.services.core.device;
+
+public enum DeviceError
+{
+    APPLICATION_CONTEXT_NULL, 
+    APPLICATION_INFO_NOT_AVAILABLE, 
+    AUDIOMANAGER_NULL, 
+    COULDNT_GET_ADB_STATUS, 
+    COULDNT_GET_DIGEST, 
+    COULDNT_GET_FINGERPRINT, 
+    COULDNT_GET_GL_VERSION, 
+    COULDNT_GET_STORAGE_LOCATION, 
+    INVALID_STORAGETYPE, 
+    JSON_ERROR;
+}

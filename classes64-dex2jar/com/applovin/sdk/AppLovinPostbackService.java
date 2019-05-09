@@ -1,0 +1,10 @@
+// 
+// Decompiled by Procyon v0.5.34
+// 
+
+package com.applovin.sdk;
+
+public interface AppLovinPostbackService
+{
+    void dispatchPostbackAsync(final String p0, final AppLovinPostbackListener p1);
+}

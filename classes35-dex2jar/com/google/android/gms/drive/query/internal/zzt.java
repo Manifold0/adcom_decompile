@@ -1,0 +1,35 @@
+// 
+// Decompiled by Procyon v0.5.34
+// 
+
+package com.google.android.gms.drive.query.internal;
+
+import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
+import android.os.Parcel;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor;
+import android.os.Parcelable$Creator;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class;
+
+@SafeParcelable$Class(creator = "MatchAllFilterCreator")
+@SafeParcelable$Reserved({ 1000 })
+public final class zzt extends zza
+{
+    public static final Parcelable$Creator<zzt> CREATOR;
+    
+    static {
+        CREATOR = (Parcelable$Creator)new zzu();
+    }
+    
+    @SafeParcelable$Constructor
+    public zzt() {
+    }
+    
+    public final void writeToParcel(final Parcel parcel, final int n) {
+        SafeParcelWriter.finishObjectHeader(parcel, SafeParcelWriter.beginObjectHeader(parcel));
+    }
+    
+    public final <F> F zza(final zzj<F> zzj) {
+        return zzj.zzbc();
+    }
+}
