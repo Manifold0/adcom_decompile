@@ -1,0 +1,21 @@
+package com.google.android.gms.internal.ads;
+
+import com.google.ads.AdRequest.ErrorCode;
+
+final class zzza implements Runnable {
+    private final /* synthetic */ zzyq zzbvd;
+    private final /* synthetic */ ErrorCode zzbve;
+
+    zzza(zzyq zzyq, ErrorCode errorCode) {
+        this.zzbvd = zzyq;
+        this.zzbve = errorCode;
+    }
+
+    public final void run() {
+        try {
+            this.zzbvd.zzbuu.onAdFailedToLoad(zzzc.zza(this.zzbve));
+        } catch (Throwable e) {
+            zzane.zzd("#007 Could not call remote method.", e);
+        }
+    }
+}

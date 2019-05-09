@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="left|right|center_horizontal|fill_horizontal|clip_vertical" android:src="@drawable/kongregate_toolbar_background" android:tileMode="repeat"/>
