@@ -1,0 +1,4860 @@
+{
+   "Ads": [
+      {
+         "AdType": "Industry",
+         "Description": "Applies a x2 payout to all industries",
+         "Id": "AD011",
+         "Name": "Propaganda Boost",
+         "ResetType": "Now",
+         "Rewards": [
+            {
+               "Reward": "Experiment",
+               "RewardId": "EXAD6",
+               "Value": 1
+            }
+         ],
+         "ViewLimit": 4
+      },
+      {
+         "AdType": "Tool",
+         "Id": "AD012",
+         "Name": "Air Drop",
+         "ResetType": "Now",
+         "Rewards": [
+            {
+               "Reward": "None"
+            }
+         ],
+         "ViewLimit": 1
+      }
+   ],
+   "AirDrops": [
+      {
+         "AirDropRewardType": "CoreResource",
+         "Id": 10001,
+         "IsAd": false,
+         "IsAdSkippable": false,
+         "MaxAdsPerInterval": -1,
+         "RewardCalculation": {
+            "A": 900,
+            "B": 4,
+            "C": 0.4,
+            "D": 0
+         },
+         "Weight": 10
+      },
+      {
+         "AirDropRewardType": "PrimaryCurrency",
+         "Id": 10002,
+         "IsAd": false,
+         "IsAdSkippable": false,
+         "MaxAdsPerInterval": -1,
+         "RewardCalculation": {
+            "A": 300,
+            "B": 3,
+            "C": 0.3,
+            "D": 0
+         },
+         "Weight": 10
+      },
+      {
+         "AirDropRewardType": "PrimaryCurrency",
+         "Id": 10003,
+         "IsAd": true,
+         "IsAdSkippable": false,
+         "MaxAdsPerInterval": 3,
+         "RewardCalculation": {
+            "A": 9000,
+            "B": 1.6,
+            "C": 0.2,
+            "D": -800
+         },
+         "Weight": 50
+      },
+      {
+         "AirDropRewardType": "SoftCurrency",
+         "Id": 10004,
+         "IsAd": true,
+         "IsAdSkippable": false,
+         "MaxAdsPerInterval": 3,
+         "RewardCalculation": {
+            "A": 550,
+            "B": 1.01,
+            "C": 1.001,
+            "D": 40
+         },
+         "Weight": 30
+      }
+   ],
+   "AirDropsConfig": [
+      {
+         "AdCountResetInterval": 43200,
+         "AirDropBaseInterval": 50,
+         "AirDropIntervalMultiplier": 1.25,
+         "AirDropIntervalVariance": 0.1,
+         "ClaimCountResetInterval": 5400,
+         "StartCondition": {
+            "ConditionType": "RankReached",
+            "Threshold": 2
+         },
+         "StartupDelay": 30
+      }
+   ],
+   "CardStoreCost": [
+      {
+         "AdWatchStackModifier": 0,
+         "GoldCost": 0,
+         "Rarity": "Common",
+         "ScienceCost": 0
+      },
+      {
+         "AdWatchStackModifier": 0,
+         "GoldCost": 0,
+         "Rarity": "Rare",
+         "ScienceCost": 0
+      },
+      {
+         "AdWatchStackModifier": 0,
+         "GoldCost": 0,
+         "Rarity": "Epic",
+         "ScienceCost": 0
+      },
+      {
+         "AdWatchStackModifier": 0,
+         "GoldCost": 0,
+         "Rarity": "Supreme",
+         "ScienceCost": 0
+      },
+      {
+         "AdWatchStackModifier": 0.25,
+         "GoldCost": 2,
+         "Rarity": "LteCommon",
+         "ScienceCost": 30
+      },
+      {
+         "AdWatchStackModifier": 0.1,
+         "GoldCost": 15,
+         "Rarity": "LteRare",
+         "ScienceCost": 250
+      }
+   ],
+   "CardStoreStackSize": [
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 10,
+         "LteRare": 2,
+         "Rank": 1,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 10,
+         "LteRare": 2,
+         "Rank": 2,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 20,
+         "LteRare": 3,
+         "Rank": 3,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 20,
+         "LteRare": 3,
+         "Rank": 4,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 20,
+         "LteRare": 3,
+         "Rank": 5,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 30,
+         "LteRare": 4,
+         "Rank": 6,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 30,
+         "LteRare": 4,
+         "Rank": 7,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 30,
+         "LteRare": 4,
+         "Rank": 8,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 30,
+         "LteRare": 4,
+         "Rank": 9,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 40,
+         "LteRare": 5,
+         "Rank": 10,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 40,
+         "LteRare": 5,
+         "Rank": 11,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 40,
+         "LteRare": 5,
+         "Rank": 12,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 40,
+         "LteRare": 5,
+         "Rank": 13,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 40,
+         "LteRare": 5,
+         "Rank": 14,
+         "Rare": 0,
+         "Supreme": 0
+      },
+      {
+         "Common": 0,
+         "Epic": 0,
+         "LteCommon": 40,
+         "LteRare": 5,
+         "Rank": 15,
+         "Rare": 0,
+         "Supreme": 0
+      }
+   ],
+   "CardToScienceConversion": {
+      "Common": 0,
+      "Epic": 0,
+      "LteCommon": 15,
+      "LteRare": 125,
+      "Rare": 0,
+      "Supreme": 0
+   },
+   "DailyDealSlotChance": [
+      {
+         "AdWatchChance": 1,
+         "Common": 0,
+         "Epic": 0,
+         "GoldCostChance": 0,
+         "LteCommon": 0.5,
+         "LteRare": 0.5,
+         "Rare": 0,
+         "Slot": 1,
+         "Supreme": 0
+      },
+      {
+         "AdWatchChance": 0,
+         "Common": 0,
+         "Epic": 0,
+         "GoldCostChance": 0,
+         "LteCommon": 0.75,
+         "LteRare": 0.25,
+         "Rare": 0,
+         "Slot": 2,
+         "Supreme": 0
+      },
+      {
+         "AdWatchChance": 0,
+         "Common": 0,
+         "Epic": 0,
+         "GoldCostChance": 1,
+         "LteCommon": 0,
+         "LteRare": 1,
+         "Rare": 0,
+         "Slot": 3,
+         "Supreme": 0
+      }
+   ],
+   "Experiments": [
+      {
+         "Description": "Resource Surge! Get 4 hours' worth instantly!",
+         "IconKey": "megatimehack",
+         "Id": "EX164",
+         "Lifespan": "OneTime",
+         "Lifetime": 1,
+         "Name": "Basic Time Hack",
+         "Rewards": [
+            {
+               "AllResources": true,
+               "Description": "Resource Surge! Get 4 hours' worth instantly!",
+               "Type": "ResourceSurge",
+               "Value": 14400
+            }
+         ],
+         "Type": "None"
+      },
+      {
+         "Description": "Resource Surge! Get 24 hours' worth instantly!",
+         "IconKey": "supremetimehack",
+         "Id": "EX165",
+         "Lifespan": "OneTime",
+         "Lifetime": 1,
+         "Name": "Mega Time Hack",
+         "Rewards": [
+            {
+               "AllResources": true,
+               "Description": "Resource Surge! Get 24 hours' worth instantly!",
+               "Type": "ResourceSurge",
+               "Value": 86400
+            }
+         ],
+         "Type": "None"
+      },
+      {
+         "Description": "Resource Surge! Get 1 hours' worth instantly!",
+         "IconKey": "basictimehack",
+         "Id": "EX167",
+         "Lifespan": "OneTime",
+         "Lifetime": 1,
+         "Name": "Simple Time Hack",
+         "Rewards": [
+            {
+               "AllResources": true,
+               "Description": "Resource Surge! Get 1 hours' worth instantly!",
+               "Type": "ResourceSurge",
+               "Value": 3600
+            }
+         ],
+         "Type": "None"
+      },
+      {
+         "Description": "Receive a permanent x2 speed boost to all industries!",
+         "IconKey": "propaganda",
+         "Id": "EX210",
+         "Lifespan": "Permanent",
+         "Lifetime": 0,
+         "Name": "Double Time",
+         "Rewards": [
+            {
+               "AllResources": true,
+               "Description": "Receive a permanent x2 speed boost to all industries!",
+               "Type": "PayoutMultiplier",
+               "Value": 2
+            }
+         ],
+         "Type": "Ad"
+      },
+      {
+         "Description": "Receive a permanent x5 speed boost to all industries!",
+         "IconKey": "propaganda",
+         "Id": "EX211",
+         "Lifespan": "Permanent",
+         "Lifetime": 0,
+         "Name": "Quintuple Time",
+         "Rewards": [
+            {
+               "AllResources": true,
+               "Description": "Receive a permanent x5 speed boost to all industries!",
+               "Type": "PayoutMultiplier",
+               "Value": 5
+            }
+         ],
+         "Type": "Ad"
+      },
+      {
+         "Description": "Receive a x5 speed boost to all industries for 60D!",
+         "IconKey": "propaganda",
+         "Id": "EX215",
+         "Lifespan": "Timed",
+         "Lifetime": 5184000,
+         "Name": "Long Term Propaganda",
+         "Rewards": [
+            {
+               "AllResources": true,
+               "Description": "Receive a x5 speed boost to all industries for 60D!",
+               "Type": "PayoutMultiplier",
+               "Value": 5
+            }
+         ],
+         "Type": "Ad"
+      },
+      {
+         "Description": "x2 boost for 3 more hours!",
+         "IconKey": "propaganda",
+         "Id": "EXAD6",
+         "Lifespan": "Timed",
+         "Lifetime": 10800,
+         "Name": "Propaganda Boost",
+         "Rewards": [
+            {
+               "AllResources": true,
+               "Description": "x2 boost to all industries!",
+               "Type": "PayoutMultiplier",
+               "Value": 2
+            }
+         ],
+         "Type": "Ad"
+      },
+      {
+         "Id": "SCH2",
+         "Lifespan": "Timed",
+         "Lifetime": 7200,
+         "Name": "Free Gacha Capsule",
+         "Rewards": [
+            {
+               "AllResources": false,
+               "Type": "None"
+            }
+         ],
+         "Type": "None"
+      },
+      {
+         "IconKey": "darkscience",
+         "Id": "SCH3",
+         "Lifespan": "Timed",
+         "Lifetime": 14400,
+         "Name": "Science Air Drop Availability",
+         "Rewards": [
+            {
+               "Type": "None"
+            }
+         ],
+         "Type": "None"
+      },
+      {
+         "IconKey": "none",
+         "Id": "SCH4",
+         "Lifespan": "Timed",
+         "Lifetime": 14400,
+         "Name": "Air Drop Session Reset",
+         "Rewards": [
+            {
+               "Type": "None"
+            }
+         ],
+         "Type": "None"
+      }
+   ],
+   "GachaFreeCycle": [
+      {
+         "Cycle": [
+            "plastic",
+            "plastic",
+            "armored",
+            "plastic",
+            "plastic",
+            "plastic",
+            "armored",
+            "plastic",
+            "plastic",
+            "plastic",
+            "armored",
+            "plastic",
+            "plastic",
+            "plastic",
+            "armored",
+            "plastic",
+            "plastic",
+            "plastic",
+            "armored",
+            "plastic",
+            "plastic",
+            "plastic",
+            "armored",
+            "plastic"
+         ],
+         "ScriptId": "sc3"
+      }
+   ],
+   "GachaGoldCycle": [
+      {
+         "Cycle": {
+            "armored": [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ],
+            "plastic": [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ]
+         }
+      }
+   ],
+   "GachaLootTable": [
+      {
+         "CardWeight": 10,
+         "ChanceMultiplier": 10,
+         "EpicWeight": -1,
+         "Id": "plastic",
+         "LteRareWeight": 17,
+         "RareWeight": -1,
+         "ScienceMax": 80,
+         "ScienceMin": 70,
+         "SupremeWeight": -1,
+         "Type": "Normal",
+         "WeightDivider": 10
+      },
+      {
+         "CardWeight": 30,
+         "ChanceMultiplier": 10,
+         "EpicWeight": -1,
+         "Id": "armored",
+         "LteRareWeight": 16,
+         "RareWeight": -1,
+         "ScienceMax": 160,
+         "ScienceMin": 140,
+         "SupremeWeight": -1,
+         "Type": "Normal",
+         "WeightDivider": 10
+      },
+      {
+         "CardWeight": 200,
+         "ChanceMultiplier": 10,
+         "EpicWeight": -1,
+         "Id": "titanium",
+         "LteRareWeight": 5,
+         "RareWeight": -1,
+         "ScienceMax": 1600,
+         "ScienceMin": 1400,
+         "SupremeWeight": -1,
+         "Type": "Premium",
+         "WeightDivider": 10
+      },
+      {
+         "Id": "sc_m01",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m02",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m03",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m04",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m05",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m06",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m07",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m08",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m09",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m10",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m11",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m12",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m13",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m14",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m15",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m16",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m17",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m18",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m19",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc_m20",
+         "Type": "Scripted"
+      },
+      {
+         "Id": "sc3",
+         "Type": "Scripted"
+      }
+   ],
+   "GachaScripts": [
+      {
+         "Card": [
+            {
+               "Id": "SF0001",
+               "Value": 3
+            }
+         ],
+         "GachaId": "sc_m01",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 48
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0002",
+               "Value": 3
+            }
+         ],
+         "GachaId": "sc_m02",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 45
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0002",
+               "Value": 3
+            }
+         ],
+         "GachaId": "sc_m03",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 47
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0001",
+               "Value": 3
+            },
+            {
+               "Id": "SF0019",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m04",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 46
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0001",
+               "Value": 3
+            }
+         ],
+         "GachaId": "sc_m05",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 45
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0003",
+               "Value": 6
+            }
+         ],
+         "GachaId": "sc_m06",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 55
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0002",
+               "Value": 5
+            },
+            {
+               "Id": "SF0016",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m07",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 53
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0007",
+               "Value": 8
+            }
+         ],
+         "GachaId": "sc_m08",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 62
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0003",
+               "Value": 8
+            }
+         ],
+         "GachaId": "sc_m09",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 60
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0008",
+               "Value": 8
+            },
+            {
+               "Id": "SF0017",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m10",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 78
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0004",
+               "Value": 5
+            },
+            {
+               "Id": "SF0008",
+               "Value": 5
+            },
+            {
+               "Id": "SF0020",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m11",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 101
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0012",
+               "Value": 4
+            },
+            {
+               "Id": "SF0004",
+               "Value": 10
+            },
+            {
+               "Id": "SF0020",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m12",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 126
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0009",
+               "Value": 4
+            },
+            {
+               "Id": "SF0012",
+               "Value": 11
+            },
+            {
+               "Id": "SF0017",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m13",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 122
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0005",
+               "Value": 8
+            },
+            {
+               "Id": "SF0009",
+               "Value": 11
+            },
+            {
+               "Id": "SF0018",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m14",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 150
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0013",
+               "Value": 7
+            },
+            {
+               "Id": "SF0005",
+               "Value": 16
+            },
+            {
+               "Id": "SF0018",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m15",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 173
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0010",
+               "Value": 9
+            },
+            {
+               "Id": "SF0013",
+               "Value": 18
+            },
+            {
+               "Id": "SF0021",
+               "Value": 1
+            }
+         ],
+         "GachaId": "sc_m16",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 188
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0014",
+               "Value": 14
+            },
+            {
+               "Id": "SF0010",
+               "Value": 16
+            },
+            {
+               "Id": "SF0018",
+               "Value": 2
+            }
+         ],
+         "GachaId": "sc_m17",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 207
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0006",
+               "Value": 13
+            },
+            {
+               "Id": "SF0014",
+               "Value": 21
+            },
+            {
+               "Id": "SF0021",
+               "Value": 2
+            }
+         ],
+         "GachaId": "sc_m18",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 219
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0011",
+               "Value": 5
+            },
+            {
+               "Id": "SF0006",
+               "Value": 33
+            },
+            {
+               "Id": "SF0018",
+               "Value": 2
+            }
+         ],
+         "GachaId": "sc_m19",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 233
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0015",
+               "Value": 7
+            },
+            {
+               "Id": "SF0011",
+               "Value": 35
+            },
+            {
+               "Id": "SF0021",
+               "Value": 2
+            }
+         ],
+         "GachaId": "sc_m20",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 247
+      },
+      {
+         "Card": [
+            {
+               "Id": "SF0001",
+               "Value": 3
+            }
+         ],
+         "GachaId": "sc3",
+         "Gold": 0,
+         "MimicGachaId": "plastic",
+         "Science": 50
+      }
+   ],
+   "GachaStackSplit": [
+      {
+         "LteCommon": 8,
+         "LteRare": 4,
+         "Split": 2
+      },
+      {
+         "LteCommon": 25,
+         "LteRare": 25,
+         "Split": 3
+      }
+   ],
+   "GeneratorObjectiveLimits": [
+      {
+         "GeneratorId": "chemist",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "launchpad",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "rocket",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "autopilot",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "warpdrive",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "starportal",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "technician",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "rover",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "spaceprobe",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "terraformer",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "alienartifact",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "trooper",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "cosmocannon",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "motherlandship",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      },
+      {
+         "GeneratorId": "planetliberator",
+         "MaximumObjectivesForRank": [
+            999
+         ]
+      }
+   ],
+   "Generators": [
+      {
+         "BaseCompletionTime": 1,
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 1,
+            "Resource": "comrade"
+         },
+         "GeneratorType": "Automatic",
+         "Id": "comradegenerator",
+         "IncludeInAll": false,
+         "Name": "Comrade",
+         "ResourceType": "comradegenerator"
+      },
+      {
+         "BaseCompletionTime": 2,
+         "Cost": [
+            {
+               "Qty": "1.0E+01",
+               "Resource": "Fuel"
+            },
+            {
+               "Qty": "1",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 2,
+            "Resource": "fuel"
+         },
+         "GeneratorType": "Manual",
+         "Id": "chemist",
+         "IncludeInAll": true,
+         "IndustryId": "transport",
+         "Name": "Chemist",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 2
+         },
+         "ResourceType": "chemist",
+         "Unlock": {
+            "ConditionId": "chemist",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 0
+         },
+         "Visible": [
+            {
+               "ConditionId": "fuel",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 0
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 6,
+         "Cost": [
+            {
+               "Qty": "1.0E+01",
+               "Resource": "Chemist"
+            },
+            {
+               "Qty": "1.0E+03",
+               "Resource": "Fuel"
+            },
+            {
+               "Qty": "1",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 3,
+            "Resource": "chemist"
+         },
+         "GeneratorType": "Manual",
+         "Id": "launchpad",
+         "IncludeInAll": true,
+         "IndustryId": "transport",
+         "Name": "Launch Pad",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 3
+         },
+         "ResourceType": "launchpad",
+         "Unlock": {
+            "ConditionId": "chemist",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 100
+         },
+         "Visible": [
+            {
+               "ConditionId": "chemist",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 18,
+         "Cost": [
+            {
+               "Qty": "1.0E+02",
+               "Resource": "LaunchPad"
+            },
+            {
+               "Qty": "1.0E+11",
+               "Resource": "Fuel"
+            },
+            {
+               "Qty": "1",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 4,
+            "Resource": "launchpad"
+         },
+         "GeneratorType": "Manual",
+         "Id": "rocket",
+         "IncludeInAll": true,
+         "IndustryId": "transport",
+         "Name": "Rocket",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 4
+         },
+         "ResourceType": "rocket",
+         "Unlock": {
+            "ConditionId": "launchpad",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 10000
+         },
+         "Visible": [
+            {
+               "ConditionId": "launchpad",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 54,
+         "Cost": [
+            {
+               "Qty": "1.0E+03",
+               "Resource": "Rocket"
+            },
+            {
+               "Qty": "1e+22",
+               "Resource": "Fuel"
+            },
+            {
+               "Qty": "1",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 5,
+            "Resource": "rocket"
+         },
+         "GeneratorType": "Manual",
+         "Id": "autopilot",
+         "IncludeInAll": true,
+         "IndustryId": "transport",
+         "Name": "Autopilot",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 5
+         },
+         "ResourceType": "autopilot",
+         "Unlock": {
+            "ConditionId": "rocket",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 1000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "rocket",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 162,
+         "Cost": [
+            {
+               "Qty": "1.0E+04",
+               "Resource": "Autopilot"
+            },
+            {
+               "Qty": "1.0E+32",
+               "Resource": "Fuel"
+            },
+            {
+               "Qty": "1",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 6,
+            "Resource": "autopilot"
+         },
+         "GeneratorType": "Manual",
+         "Id": "warpdrive",
+         "IncludeInAll": true,
+         "IndustryId": "transport",
+         "Name": "Warp Drive",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 6
+         },
+         "ResourceType": "warpdrive",
+         "Unlock": {
+            "ConditionId": "autopilot",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 25000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "autopilot",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 486,
+         "Cost": [
+            {
+               "Qty": "5.0E+04",
+               "Resource": "WarpDrive"
+            },
+            {
+               "Qty": "1.00E+41",
+               "Resource": "Fuel"
+            },
+            {
+               "Qty": "1",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 7,
+            "Resource": "warpdrive"
+         },
+         "GeneratorType": "Manual",
+         "Id": "starportal",
+         "IncludeInAll": true,
+         "IndustryId": "transport",
+         "Name": "Star Portal",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 7
+         },
+         "ResourceType": "starportal",
+         "Unlock": {
+            "ConditionId": "warpdrive",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 100000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "warpdrive",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 3,
+         "Cost": [
+            {
+               "Qty": "2.5E+01",
+               "Resource": "SpaceRock"
+            },
+            {
+               "Qty": "3",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 3,
+            "Resource": "spacerock"
+         },
+         "GeneratorType": "Manual",
+         "Id": "technician",
+         "IncludeInAll": true,
+         "IndustryId": "exploration",
+         "Name": "Technician",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 3
+         },
+         "ResourceType": "technician",
+         "Unlock": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 25000000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "fuel",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 25000000000
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 12,
+         "Cost": [
+            {
+               "Qty": "1.0E+02",
+               "Resource": "Technician"
+            },
+            {
+               "Qty": "1.0E+08",
+               "Resource": "SpaceRock"
+            },
+            {
+               "Qty": "3",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 6,
+            "Resource": "technician"
+         },
+         "GeneratorType": "Manual",
+         "Id": "rover",
+         "IncludeInAll": true,
+         "IndustryId": "exploration",
+         "Name": "Rover",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 5
+         },
+         "ResourceType": "rover",
+         "Unlock": {
+            "ConditionId": "technician",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 100000
+         },
+         "Visible": [
+            {
+               "ConditionId": "technician",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 48,
+         "Cost": [
+            {
+               "Qty": 1000,
+               "Resource": "Rover"
+            },
+            {
+               "Qty": "1.0E+19",
+               "Resource": "SpaceRock"
+            },
+            {
+               "Qty": "3",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 9,
+            "Resource": "rover"
+         },
+         "GeneratorType": "Manual",
+         "Id": "spaceprobe",
+         "IncludeInAll": true,
+         "IndustryId": "exploration",
+         "Name": "Space Probe",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 7
+         },
+         "ResourceType": "spaceprobe",
+         "Unlock": {
+            "ConditionId": "rover",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 5000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "rover",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 192,
+         "Cost": [
+            {
+               "Qty": 10000,
+               "Resource": "SpaceProbe"
+            },
+            {
+               "Qty": "1.0E+28",
+               "Resource": "SpaceRock"
+            },
+            {
+               "Qty": "3",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 12,
+            "Resource": "spaceprobe"
+         },
+         "GeneratorType": "Manual",
+         "Id": "terraformer",
+         "IncludeInAll": true,
+         "IndustryId": "exploration",
+         "Name": "Terraformer",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 9
+         },
+         "ResourceType": "terraformer",
+         "Unlock": {
+            "ConditionId": "spaceprobe",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 40000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "spaceprobe",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 768,
+         "Cost": [
+            {
+               "Qty": "1.0E+05",
+               "Resource": "Terraformer"
+            },
+            {
+               "Qty": "1.0E+38",
+               "Resource": "SpaceRock"
+            },
+            {
+               "Qty": "3",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 15,
+            "Resource": "terraformer"
+         },
+         "GeneratorType": "Manual",
+         "Id": "alienartifact",
+         "IncludeInAll": true,
+         "IndustryId": "exploration",
+         "Name": "Alien Artifact",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 11
+         },
+         "ResourceType": "alienartifact",
+         "Unlock": {
+            "ConditionId": "terraformer",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 60000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "terraformer",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 4,
+         "Cost": [
+            {
+               "Qty": "5.0E+01",
+               "Resource": "Laser"
+            },
+            {
+               "Qty": "5",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 4,
+            "Resource": "laser"
+         },
+         "GeneratorType": "Manual",
+         "Id": "trooper",
+         "IncludeInAll": true,
+         "IndustryId": "spaceforce",
+         "Name": "Trooper",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 4
+         },
+         "ResourceType": "trooper",
+         "Unlock": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": "25000000000000000000"
+         },
+         "Visible": [
+            {
+               "ConditionId": "spacerock",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": "25000000000000000000"
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 24,
+         "Cost": [
+            {
+               "Qty": "1.0E+03",
+               "Resource": "Trooper"
+            },
+            {
+               "Qty": "1.0E+11",
+               "Resource": "Laser"
+            },
+            {
+               "Qty": "5",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 9,
+            "Resource": "trooper"
+         },
+         "GeneratorType": "Manual",
+         "Id": "cosmocannon",
+         "IncludeInAll": true,
+         "IndustryId": "spaceforce",
+         "Name": "Cosmo Cannon",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 7
+         },
+         "ResourceType": "cosmocannon",
+         "Unlock": {
+            "ConditionId": "trooper",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 10000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "trooper",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 144,
+         "Cost": [
+            {
+               "Qty": "1.0E+04",
+               "Resource": "CosmoCannon"
+            },
+            {
+               "Qty": "1.00E+20",
+               "Resource": "Laser"
+            },
+            {
+               "Qty": "5",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 14,
+            "Resource": "cosmocannon"
+         },
+         "GeneratorType": "Manual",
+         "Id": "motherlandship",
+         "IncludeInAll": true,
+         "IndustryId": "spaceforce",
+         "Name": "Motherland Ship",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 10
+         },
+         "ResourceType": "motherlandship",
+         "Unlock": {
+            "ConditionId": "cosmocannon",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 15000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "cosmocannon",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      },
+      {
+         "BaseCompletionTime": 864,
+         "Cost": [
+            {
+               "Qty": "1.0E+05",
+               "Resource": "MotherlandShip"
+            },
+            {
+               "Qty": "1.0E+31",
+               "Resource": "Laser"
+            },
+            {
+               "Qty": "5",
+               "Resource": "Comrade"
+            }
+         ],
+         "Crit": {
+            "ChancePercent": 0,
+            "Multiplier": 1
+         },
+         "Generate": {
+            "Qty": 19,
+            "Resource": "motherlandship"
+         },
+         "GeneratorType": "Manual",
+         "Id": "planetliberator",
+         "IncludeInAll": true,
+         "IndustryId": "spaceforce",
+         "Name": "Planet Liberator",
+         "ObjectiveReward": {
+            "Reward": "Resources",
+            "RewardId": "darkscience",
+            "Value": 13
+         },
+         "ResourceType": "planetliberator",
+         "Unlock": {
+            "ConditionId": "motherlandship",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 30000000
+         },
+         "Visible": [
+            {
+               "ConditionId": "motherlandship",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 2
+            }
+         ]
+      }
+   ],
+   "Industries": [
+      {
+         "Id": "transport",
+         "InteractableConditions": [
+            {
+               "ConditionId": "fuel",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 0
+            }
+         ],
+         "SortingOrder": 1,
+         "VisibleConditions": [
+            {
+               "ConditionId": "fuel",
+               "ConditionType": "ResourceQuantity"
+            }
+         ]
+      },
+      {
+         "Id": "exploration",
+         "InteractableConditions": [
+            {
+               "ConditionId": "fuel",
+               "ConditionType": "ResourceQuantity",
+               "Threshold": 0
+            }
+         ],
+         "SortingOrder": 2,
+         "UnlockCostResourceId": "fuel",
+         "UnlockCostResourceQty": 25000000000,
+         "VisibleConditions": [
+            {
+               "ConditionId": "transport",
+               "ConditionType": "IndustryUnlocked"
+            }
+         ]
+      },
+      {
+         "Id": "spaceforce",
+         "InteractableConditions": [
+            {
+               "ConditionId": "exploration",
+               "ConditionType": "IndustryUnlocked",
+               "Threshold": 0
+            }
+         ],
+         "SortingOrder": 3,
+         "UnlockCostResourceId": "spacerock",
+         "UnlockCostResourceQty": "25000000000000000000",
+         "VisibleConditions": [
+            {
+               "ConditionId": "transport",
+               "ConditionType": "IndustryUnlocked"
+            }
+         ]
+      }
+   ],
+   "MiscBalance": {
+      "HardToSoftCurrencyConversionRatio": 20,
+      "PrimaryGeneratorId": "comradegenerator",
+      "PrimaryResourceId": "comrade",
+      "SoftCurrencyId": "darkscience"
+   },
+   "Missions": [
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "TradesSinceSubscription",
+            "Threshold": 3
+         },
+         "Id": "M0001",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m02",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearchersUpgradedSinceSubscription",
+            "Threshold": 2
+         },
+         "Id": "M0002",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m04",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "chemist",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 100
+         },
+         "Id": "M0003",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m01",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "launchpad",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 128
+         },
+         "Id": "M0004",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m03",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": 5000000000
+         },
+         "Id": "M0005",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m05",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 15
+         },
+         "Id": "M0006",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "exploration",
+            "ConditionType": "IndustryUnlocked",
+            "Threshold": 1
+         },
+         "Id": "M0007",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m06",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "launchpad",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 7777
+         },
+         "Id": "M0008",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m07",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "darkscience",
+            "ConditionType": "ResourcesSpentSinceSubscription",
+            "Threshold": 250
+         },
+         "Id": "M0009",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "846000000000000"
+         },
+         "Id": "M0010",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": 10000
+         },
+         "Id": "M0011",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "rocket",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 256
+         },
+         "Id": "M0012",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "technician",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 2525
+         },
+         "Id": "M0013",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m08",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 25
+         },
+         "Id": "M0014",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "rover",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 68
+         },
+         "Id": "M0015",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "57000000000000000000"
+         },
+         "Id": "M0016",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m09",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearchersUpgradedSinceSubscription",
+            "Threshold": 2
+         },
+         "Id": "M0017",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "rocket",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 629394
+         },
+         "Id": "M0018",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": 4000000000
+         },
+         "Id": "M0019",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 50
+         },
+         "Id": "M0020",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "rover",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 848
+         },
+         "Id": "M0021",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m10",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "1.25e+23"
+         },
+         "Id": "M0022",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "darkscience",
+            "ConditionType": "ResourcesSpentSinceSubscription",
+            "Threshold": 600
+         },
+         "Id": "M0023",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "45000000000000"
+         },
+         "Id": "M0024",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "autopilot",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 68
+         },
+         "Id": "M0025",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "rover",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 555555
+         },
+         "Id": "M0026",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 75
+         },
+         "Id": "M0027",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "6.8e+24"
+         },
+         "Id": "M0028",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "100000000000000000"
+         },
+         "Id": "M0029",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "autopilot",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 2222
+         },
+         "Id": "M0030",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m11",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearchersUpgradedSinceSubscription",
+            "Threshold": 2
+         },
+         "Id": "M0031",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "rover",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 4500000
+         },
+         "Id": "M0032",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "3.7e+28"
+         },
+         "Id": "M0033",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spaceforce",
+            "ConditionType": "IndustryUnlocked",
+            "Threshold": 1
+         },
+         "Id": "M0034",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spaceprobe",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 10
+         },
+         "Id": "M0035",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 100
+         },
+         "Id": "M0036",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "autopilot",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 8000000
+         },
+         "Id": "M0037",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m12",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "77000000000000000000"
+         },
+         "Id": "M0038",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "trooper",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 2400000
+         },
+         "Id": "M0039",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m13",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "darkscience",
+            "ConditionType": "ResourcesSpentSinceSubscription",
+            "Threshold": 1200
+         },
+         "Id": "M0040",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "1.23e+32"
+         },
+         "Id": "M0041",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spaceprobe",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 250
+         },
+         "Id": "M0042",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "1000000000000"
+         },
+         "Id": "M0043",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "warpdrive",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 30
+         },
+         "Id": "M0044",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 125
+         },
+         "Id": "M0045",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "4.2e+23"
+         },
+         "Id": "M0046",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "trooper",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 6300000
+         },
+         "Id": "M0047",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m14",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "2.5e+34"
+         },
+         "Id": "M0048",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spaceprobe",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 7400000
+         },
+         "Id": "M0049",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearchersUpgradedSinceSubscription",
+            "Threshold": 3
+         },
+         "Id": "M0050",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "9200000000000"
+         },
+         "Id": "M0051",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "warpdrive",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 2552
+         },
+         "Id": "M0052",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "3e+27"
+         },
+         "Id": "M0053",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "cosmocannon",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 420
+         },
+         "Id": "M0054",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m15",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 150
+         },
+         "Id": "M0055",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "2.7e+36"
+         },
+         "Id": "M0056",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spaceprobe",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 35000000
+         },
+         "Id": "M0057",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "250000000000000"
+         },
+         "Id": "M0058",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "warpdrive",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 1400000
+         },
+         "Id": "M0059",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "darkscience",
+            "ConditionType": "ResourcesSpentSinceSubscription",
+            "Threshold": 2000
+         },
+         "Id": "M0060",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "6.9e+28"
+         },
+         "Id": "M0061",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "cosmocannon",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 7000000
+         },
+         "Id": "M0062",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "3.3e+40"
+         },
+         "Id": "M0063",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "terraformer",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 13
+         },
+         "Id": "M0064",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m16",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 200
+         },
+         "Id": "M0065",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "1.2e+21"
+         },
+         "Id": "M0066",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "warpdrive",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 100000000
+         },
+         "Id": "M0067",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "2.2e+28"
+         },
+         "Id": "M0068",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "motherlandship",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 55
+         },
+         "Id": "M0069",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m17",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearchersUpgradedSinceSubscription",
+            "Threshold": 3
+         },
+         "Id": "M0070",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "1.9e+43"
+         },
+         "Id": "M0071",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "terraformer",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 3245
+         },
+         "Id": "M0072",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "7e+22"
+         },
+         "Id": "M0073",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "starportal",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 1994
+         },
+         "Id": "M0074",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 250
+         },
+         "Id": "M0075",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "2.7e+33"
+         },
+         "Id": "M0076",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "motherlandship",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 666666
+         },
+         "Id": "M0077",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m18",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "3.4e+45"
+         },
+         "Id": "M0078",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "terraformer",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 44000000
+         },
+         "Id": "M0079",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "darkscience",
+            "ConditionType": "ResourcesSpentSinceSubscription",
+            "Threshold": 2500
+         },
+         "Id": "M0080",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "3.5e+28"
+         },
+         "Id": "M0081",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "starportal",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 84848
+         },
+         "Id": "M0082",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "6e+37"
+         },
+         "Id": "M0083",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "motherlandship",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 30000000
+         },
+         "Id": "M0084",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 300
+         },
+         "Id": "M0085",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "7.9e+46"
+         },
+         "Id": "M0086",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "alienartifact",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 5
+         },
+         "Id": "M0087",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m19",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "2.8e+31"
+         },
+         "Id": "M0088",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "starportal",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 65000000
+         },
+         "Id": "M0089",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearchersUpgradedSinceSubscription",
+            "Threshold": 3
+         },
+         "Id": "M0090",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "7.77e+38"
+         },
+         "Id": "M0091",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "planetliberator",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 25
+         },
+         "Id": "M0092",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "2e+50"
+         },
+         "Id": "M0093",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "sc_m20",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "alienartifact",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 70
+         },
+         "Id": "M0094",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 350
+         },
+         "Id": "M0095",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "1e+33"
+         },
+         "Id": "M0096",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "starportal",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 333000000
+         },
+         "Id": "M0097",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "1.1e+40"
+         },
+         "Id": "M0098",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "planetliberator",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 2222
+         },
+         "Id": "M0099",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "darkscience",
+            "ConditionType": "ResourcesSpentSinceSubscription",
+            "Threshold": 3000
+         },
+         "Id": "M0100",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "4.6e+51"
+         },
+         "Id": "M0101",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "alienartifact",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 512
+         },
+         "Id": "M0102",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "laser",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "9.5e+33"
+         },
+         "Id": "M0103",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "starportal",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 1000000000
+         },
+         "Id": "M0104",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "any",
+            "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+            "Threshold": 400
+         },
+         "Id": "M0105",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "armored",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "spacerock",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "3.5e+40"
+         },
+         "Id": "M0106",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "planetliberator",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 65536
+         },
+         "Id": "M0107",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "fuel",
+            "ConditionType": "ResourcesEarnedSinceSubscription",
+            "Threshold": "7.6e+55"
+         },
+         "Id": "M0108",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      },
+      {
+         "Condition": {
+            "ConditionId": "alienartifact",
+            "ConditionType": "ResourceQuantity",
+            "Threshold": 999999
+         },
+         "Id": "M0109",
+         "Rank": 1,
+         "Reward": {
+            "Reward": "Gacha",
+            "RewardId": "plastic",
+            "Value": 1
+         }
+      }
+   ],
+   "Promotions": [],
+   "Ranks": [
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 25,
+         "Missions": "0",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 0.3,
+         "NormalGachaMultiplierScience": 0.6,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "1",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 50,
+         "Missions": "5",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 0.6,
+         "NormalGachaMultiplierScience": 0.7,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "2",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 70,
+         "Missions": "6",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 0.8,
+         "NormalGachaMultiplierScience": 0.8,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "3",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 85,
+         "Missions": "7",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 0.9,
+         "NormalGachaMultiplierScience": 1,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "4",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 100,
+         "Missions": "8",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 1.1,
+         "NormalGachaMultiplierScience": 1.3,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "5",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 110,
+         "Missions": "7",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 1.6,
+         "NormalGachaMultiplierScience": 1.6,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "6",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 120,
+         "Missions": "9",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 2,
+         "NormalGachaMultiplierScience": 1.9,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "7",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 130,
+         "Missions": "8",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 2.5,
+         "NormalGachaMultiplierScience": 2.2,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "8",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 135,
+         "Missions": "9",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 3,
+         "NormalGachaMultiplierScience": 2.4,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "9",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 140,
+         "Missions": "7",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 3.4,
+         "NormalGachaMultiplierScience": 2.6,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "10",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 145,
+         "Missions": "8",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 3.8,
+         "NormalGachaMultiplierScience": 2.8,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "11",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 150,
+         "Missions": "7",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 4.2,
+         "NormalGachaMultiplierScience": 3,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "12",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 155,
+         "Missions": "9",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 4.6,
+         "NormalGachaMultiplierScience": 3.2,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "13",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 160,
+         "Missions": "8",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 4.8,
+         "NormalGachaMultiplierScience": 3.4,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "14",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      },
+      {
+         "ActiveMissionCount": 3,
+         "AirDropRankUpCoolDown": 60,
+         "AirDropScience": 160,
+         "Missions": "9",
+         "Name": "UNUSED",
+         "NormalGachaMultiplier": 5,
+         "NormalGachaMultiplierScience": 3.6,
+         "PremiumGachaMultiplier": 1,
+         "PremiumGachaMultiplierScience": 1,
+         "Rank": "15",
+         "RewardType": "None",
+         "SpriteName": "art-avatar"
+      }
+   ],
+   "ResearcherRankCosts": [
+      {
+         "Quantity": [
+            9999
+         ],
+         "Rarity": "Common",
+         "Science": [
+            999999
+         ]
+      },
+      {
+         "Quantity": [
+            9999
+         ],
+         "Rarity": "Rare",
+         "Science": [
+            999999
+         ]
+      },
+      {
+         "Quantity": [
+            9999
+         ],
+         "Rarity": "Epic",
+         "Science": [
+            999999
+         ]
+      },
+      {
+         "Quantity": [
+            9999
+         ],
+         "Rarity": "Supreme",
+         "Science": [
+            999999
+         ]
+      },
+      {
+         "Quantity": [
+            5,
+            10,
+            20,
+            50,
+            100,
+            200,
+            400
+         ],
+         "Rarity": "LteCommon",
+         "Science": [
+            100,
+            200,
+            300,
+            400,
+            800,
+            2000,
+            4000
+         ]
+      },
+      {
+         "Quantity": [
+            5,
+            10,
+            20,
+            50,
+            100
+         ],
+         "Rarity": "LteRare",
+         "Science": [
+            250,
+            500,
+            1000,
+            2500,
+            5000
+         ]
+      }
+   ],
+   "Researchers": [
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 1.5,
+         "Id": "SF0001",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Barry Snape",
+         "PlayerRankUnlock": 1,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "chemist"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 2,
+         "Id": "SF0002",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Quack Launchyear",
+         "PlayerRankUnlock": 1,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "launchpad"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 2.5,
+         "Id": "SF0003",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Racoonteer",
+         "PlayerRankUnlock": 2,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "rocket"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 3,
+         "Id": "SF0004",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Good Morning Slam",
+         "PlayerRankUnlock": 5,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "autopilot"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 3.5,
+         "Id": "SF0005",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "The Warp-Driver",
+         "PlayerRankUnlock": 7,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "warpdrive"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 4,
+         "Id": "SF0006",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "gRAdos",
+         "PlayerRankUnlock": 11,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "starportal"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 2.5,
+         "Id": "SF0007",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Dr. Sky-Wily",
+         "PlayerRankUnlock": 3,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "technician"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 3,
+         "Id": "SF0008",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Johnny Quantum Size",
+         "PlayerRankUnlock": 4,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "rover"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 3.5,
+         "Id": "SF0009",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "ThunderJay",
+         "PlayerRankUnlock": 6,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "spaceprobe"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 4,
+         "Id": "SF0010",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Dz Swells",
+         "PlayerRankUnlock": 9,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "terraformer"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 4.5,
+         "Id": "SF0011",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Marv 9000",
+         "PlayerRankUnlock": 12,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "alienartifact"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 3.5,
+         "Id": "SF0012",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Ghost of the Galaxy",
+         "PlayerRankUnlock": 6,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "trooper"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 4,
+         "Id": "SF0013",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Gortheads",
+         "PlayerRankUnlock": 8,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "cosmocannon"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 4.5,
+         "Id": "SF0014",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Queen Mother",
+         "PlayerRankUnlock": 10,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "motherlandship"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 5,
+         "Id": "SF0015",
+         "ModType": "GenManagerAndSpeedMult",
+         "Name": "Iron Helmet",
+         "PlayerRankUnlock": 13,
+         "Rarity": "LteCommon",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "planetliberator"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 2.5,
+         "Id": "SF0016",
+         "ModType": "TradePayoutMultiplier",
+         "Name": "Imperator Butt",
+         "PlayerRankUnlock": 1,
+         "Rarity": "LteRare",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "fuel"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 2.5,
+         "Id": "SF0017",
+         "ModType": "TradePayoutMultiplier",
+         "Name": "Blue Dwarf",
+         "PlayerRankUnlock": 3,
+         "Rarity": "LteRare",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "spacerock"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 2.5,
+         "Id": "SF0018",
+         "ModType": "TradePayoutMultiplier",
+         "Name": "Gunter Starr",
+         "PlayerRankUnlock": 7,
+         "Rarity": "LteRare",
+         "ResearchOutputRate": 1,
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "laser"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 2,
+         "Id": "SF0019",
+         "ModType": "GeneratorPayoutMultiplier",
+         "Name": "Poison Plainfuel",
+         "PlayerRankUnlock": 1,
+         "Rarity": "LteRare",
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "transport"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 3,
+         "Id": "SF0020",
+         "ModType": "GeneratorPayoutMultiplier",
+         "Name": "The Demons Champion",
+         "PlayerRankUnlock": 5,
+         "Rarity": "LteRare",
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "exploration"
+         ],
+         "UpgradePower": 0
+      },
+      {
+         "BasePower": 0,
+         "CurveModifier": 0,
+         "ExpoGrowth": 2,
+         "ExpoMultiplier": 4,
+         "Id": "SF0021",
+         "ModType": "GeneratorPayoutMultiplier",
+         "Name": "Awakened Gangster",
+         "PlayerRankUnlock": 9,
+         "Rarity": "LteRare",
+         "ResearchOutputType": "Constant",
+         "TargetIds": [
+            "spaceforce"
+         ],
+         "UpgradePower": 0
+      }
+   ],
+   "Resources": [
+      {
+         "Id": "fuel",
+         "Plural": "Fuel",
+         "Resettable": true,
+         "Singular": "Fuel"
+      },
+      {
+         "Id": "spacerock",
+         "Plural": "Space Rocks",
+         "Resettable": true,
+         "Singular": "Space Rock"
+      },
+      {
+         "Id": "laser",
+         "Plural": "Lasers",
+         "Resettable": true,
+         "Singular": "Laser"
+      },
+      {
+         "Id": "chemist",
+         "Plural": "Chemists",
+         "Resettable": true,
+         "Singular": "Chemist",
+         "StartingQty": 1
+      },
+      {
+         "Id": "launchpad",
+         "Plural": "Launch Pads",
+         "Resettable": true,
+         "Singular": "Launch Pad",
+         "StartingQty": 1
+      },
+      {
+         "Id": "rocket",
+         "Plural": "Rockets",
+         "Resettable": true,
+         "Singular": "Rocket",
+         "StartingQty": 1
+      },
+      {
+         "Id": "autopilot",
+         "Plural": "Autopilots",
+         "Resettable": true,
+         "Singular": "Autopilot",
+         "StartingQty": 1
+      },
+      {
+         "Id": "warpdrive",
+         "Plural": "Warp Drives",
+         "Resettable": true,
+         "Singular": "Warp Drive",
+         "StartingQty": 1
+      },
+      {
+         "Id": "starportal",
+         "Plural": "Star Portals",
+         "Resettable": true,
+         "Singular": "Star Portal",
+         "StartingQty": 1
+      },
+      {
+         "Id": "technician",
+         "Plural": "Technicians",
+         "Resettable": true,
+         "Singular": "Technician",
+         "StartingQty": 1
+      },
+      {
+         "Id": "rover",
+         "Plural": "Rovers",
+         "Resettable": true,
+         "Singular": "Rover",
+         "StartingQty": 1
+      },
+      {
+         "Id": "spaceprobe",
+         "Plural": "Space Probes",
+         "Resettable": true,
+         "Singular": "Space Probe",
+         "StartingQty": 1
+      },
+      {
+         "Id": "terraformer",
+         "Plural": "Terraformers",
+         "Resettable": true,
+         "Singular": "Terraformer",
+         "StartingQty": 1
+      },
+      {
+         "Id": "alienartifact",
+         "Plural": "Alien Artifacts",
+         "Resettable": true,
+         "Singular": "Alien Artifact",
+         "StartingQty": 1
+      },
+      {
+         "Id": "trooper",
+         "Plural": "Troopers",
+         "Resettable": true,
+         "Singular": "Trooper",
+         "StartingQty": 1
+      },
+      {
+         "Id": "cosmocannon",
+         "Plural": "Cosmo Cannons",
+         "Resettable": true,
+         "Singular": "Cosmo Cannon",
+         "StartingQty": 1
+      },
+      {
+         "Id": "motherlandship",
+         "Plural": "Motherland Ships",
+         "Resettable": true,
+         "Singular": "Motherland Ship",
+         "StartingQty": 1
+      },
+      {
+         "Id": "planetliberator",
+         "Plural": "Planet Liberators",
+         "Resettable": true,
+         "Singular": "Planet Liberator",
+         "StartingQty": 1
+      },
+      {
+         "CurrencyCode": "SC",
+         "Id": "darkscience",
+         "Plural": "Dark Science",
+         "Resettable": false,
+         "Singular": "Dark Science"
+      },
+      {
+         "Id": "comrade",
+         "Plural": "Comrades",
+         "Resettable": true,
+         "Singular": "Comrade"
+      },
+      {
+         "Id": "comradegenerator",
+         "Plural": "Comrades",
+         "Resettable": true,
+         "Singular": "Comrade",
+         "StartingQty": 1
+      },
+      {
+         "CurrencyCode": "GO",
+         "Id": "gold",
+         "Plural": "Gold",
+         "Resettable": false,
+         "Singular": "Gold"
+      }
+   ],
+   "Segments": [
+      {
+         "Id": "SG01",
+         "Priority": 1,
+         "Triggers": [
+            {
+               "Operator": "<",
+               "Type": "TotalSpent",
+               "Value": 1190
+            }
+         ]
+      },
+      {
+         "Id": "SG02",
+         "Priority": 2,
+         "Triggers": [
+            {
+               "Operator": ">=",
+               "Type": "TotalSpent",
+               "Value": 1190
+            },
+            {
+               "Operator": "<",
+               "Type": "TotalSpent",
+               "Value": 2490
+            }
+         ]
+      },
+      {
+         "Id": "SG03",
+         "Priority": 3,
+         "Triggers": [
+            {
+               "Operator": ">=",
+               "Type": "TotalSpent",
+               "Value": 2490
+            },
+            {
+               "Operator": "<",
+               "Type": "TotalSpent",
+               "Value": 4490
+            }
+         ]
+      },
+      {
+         "Id": "SG04",
+         "Priority": 4,
+         "Triggers": [
+            {
+               "Operator": ">=",
+               "Type": "TotalSpent",
+               "Value": 4490
+            },
+            {
+               "Operator": "<",
+               "Type": "TotalSpent",
+               "Value": 5990
+            }
+         ]
+      },
+      {
+         "Id": "SG05",
+         "Priority": 5,
+         "Triggers": [
+            {
+               "Operator": ">=",
+               "Type": "TotalSpent",
+               "Value": 5990
+            }
+         ]
+      }
+   ],
+   "Store": [
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-gold1\"}",
+         "InternalId": "t02_gold",
+         "ItemClass": "VirtualCurrencyGold",
+         "Name": "Bit O'Gold",
+         "Price": 199,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "GO",
+               "Value": 160
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-gold2\"}",
+         "InternalId": "t05_gold",
+         "ItemClass": "VirtualCurrencyGold",
+         "Name": "Lot O'Gold",
+         "Price": 499,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "GO",
+               "Value": 500
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-gold3\",\"popular\":\"true\"}",
+         "InternalId": "t10_gold",
+         "ItemClass": "VirtualCurrencyGold",
+         "Name": "Tonne O'Gold",
+         "Price": 999,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "GO",
+               "Value": 1200
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-gold4\"}",
+         "InternalId": "t20_gold",
+         "ItemClass": "VirtualCurrencyGold",
+         "Name": "Bucket O'Gold",
+         "Price": 1999,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "GO",
+               "Value": 2500
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-gold5\"}",
+         "InternalId": "t50_gold",
+         "ItemClass": "VirtualCurrencyGold",
+         "Name": "Barrel O'Gold",
+         "Price": 4999,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "GO",
+               "Value": 6500
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-gold6\",\"bestValue\":\"true\"}",
+         "InternalId": "t60_gold",
+         "ItemClass": "VirtualCurrencyGold",
+         "Name": "Wheels O'Gold",
+         "Price": 9999,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "GO",
+               "Value": 14000
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "GO",
+         "CustomData": "{\"icon\":\"vc-science1\",\"topUp\":\"true\"}",
+         "InternalId": "darkscience_1000",
+         "ItemClass": "VirtualCurrencyScience",
+         "Name": "Discovery Pack",
+         "Price": 50,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "SC",
+               "Value": 1000
+            }
+         ],
+         "Tags": [
+            "GoldPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "GO",
+         "CustomData": "{\"icon\":\"vc-science2\"}",
+         "InternalId": "darkscience_5000",
+         "ItemClass": "VirtualCurrencyScience",
+         "Name": "Wise Pack",
+         "Price": 200,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "SC",
+               "Value": 5000
+            }
+         ],
+         "Tags": [
+            "GoldPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "GO",
+         "CustomData": "{\"icon\":\"vc-science3\",\"bestValue\":\"true\"}",
+         "InternalId": "darkscience_25000",
+         "ItemClass": "VirtualCurrencyScience",
+         "Name": "Brilliant Pack",
+         "Price": 800,
+         "Rewards": [
+            {
+               "Reward": "VirtualCurrency",
+               "RewardId": "SC",
+               "Value": 25000
+            }
+         ],
+         "Tags": [
+            "GoldPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "GO",
+         "CustomData": "{\"icon\":\"ga-titanium\"}",
+         "InternalId": "gacha_titanium",
+         "ItemClass": "Gacha",
+         "Name": "Titanium Capsule",
+         "Price": 750,
+         "Rewards": [
+            {
+               "Reward": "Gacha",
+               "RewardId": "titanium",
+               "Value": 1
+            }
+         ],
+         "Tags": [
+            "GoldPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "GO",
+         "CustomData": "{\"icon\":\"basictimehack\", \"rarity\":\"Rare\"}",
+         "InternalId": "timehack_1",
+         "ItemClass": "Experiment",
+         "Name": "Skip 1 Hour!",
+         "Price": 50,
+         "Rewards": [
+            {
+               "Reward": "Experiment",
+               "RewardId": "EX167",
+               "Value": 1
+            }
+         ],
+         "Tags": [
+            "GoldPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "GO",
+         "CustomData": "{\"icon\":\"megatimehack\", \"rarity\":\"Epic\"}",
+         "InternalId": "timehack_4",
+         "ItemClass": "Experiment",
+         "Name": "Skip 4 Hours!",
+         "Price": 150,
+         "Rewards": [
+            {
+               "Reward": "Experiment",
+               "RewardId": "EX164",
+               "Value": 1
+            }
+         ],
+         "Tags": [
+            "GoldPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "GO",
+         "CustomData": "{\"icon\":\"supremetimehack\", \"rarity\":\"Supreme\"}",
+         "InternalId": "timehack_24",
+         "ItemClass": "Experiment",
+         "Name": "Skip 1 Day!",
+         "Price": 750,
+         "Rewards": [
+            {
+               "Reward": "Experiment",
+               "RewardId": "EX165",
+               "Value": 1
+            }
+         ],
+         "Tags": [
+            "GoldPurchase"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "None"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-ftb\"}",
+         "InternalId": "t07_lte_starter",
+         "ItemClass": "VirtualCurrencyBundle",
+         "Name": "Event Starter Pack",
+         "Price": 699,
+         "PromoData": {
+            "EndDate": "2117-10-05T00:00:00",
+            "OfferType": "LteStarter",
+            "StartDate": "2017-10-05T00:00:00"
+         },
+         "Rewards": [
+            {
+               "Reward": "Gacha",
+               "RewardId": "titanium",
+               "Value": 1
+            },
+            {
+               "Reward": "Resources",
+               "RewardId": "gold",
+               "Value": 100
+            },
+            {
+               "Reward": "Resources",
+               "RewardId": "darkscience",
+               "Value": 2500
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase",
+            "Bundle",
+            "Bundle"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "RankReached",
+            "Threshold": "3"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-ftb\"}",
+         "InternalId": "t04_lte_rank3",
+         "ItemClass": "VirtualCurrencyBundle",
+         "Name": "Event Rank 3 Bundle",
+         "Price": 399,
+         "PromoData": {
+            "EndDate": "2117-10-05T00:00:00",
+            "OfferType": "PlayerAction",
+            "StartDate": "2017-10-05T00:00:00"
+         },
+         "Rewards": [
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0017",
+               "Value": 20
+            },
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0007",
+               "Value": 100
+            },
+            {
+               "Reward": "Resources",
+               "RewardId": "darkscience",
+               "Value": 1000
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase",
+            "Bundle"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "RankReached",
+            "Threshold": "6"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-ftb\"}",
+         "InternalId": "t06_lte_rank6",
+         "ItemClass": "VirtualCurrencyBundle",
+         "Name": "Event Rank 6 Bundle",
+         "Price": 599,
+         "PromoData": {
+            "EndDate": "2117-10-05T00:00:00",
+            "OfferType": "PlayerAction",
+            "StartDate": "2017-10-05T00:00:00"
+         },
+         "Rewards": [
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0020",
+               "Value": 30
+            },
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0012",
+               "Value": 200
+            },
+            {
+               "Reward": "Resources",
+               "RewardId": "darkscience",
+               "Value": 2000
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase",
+            "Bundle"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "RankReached",
+            "Threshold": "8"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-ftb\"}",
+         "InternalId": "t08_lte_rank8",
+         "ItemClass": "VirtualCurrencyBundle",
+         "Name": "Event Rank 8 Bundle",
+         "Price": 799,
+         "PromoData": {
+            "EndDate": "2117-10-05T00:00:00",
+            "OfferType": "PlayerAction",
+            "StartDate": "2017-10-05T00:00:00"
+         },
+         "Rewards": [
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0018",
+               "Value": 50
+            },
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0005",
+               "Value": 300
+            },
+            {
+               "Reward": "Resources",
+               "RewardId": "darkscience",
+               "Value": 3000
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase",
+            "Bundle"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "RankReached",
+            "Threshold": "10"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-ftb\"}",
+         "InternalId": "t09_lte_rank10",
+         "ItemClass": "VirtualCurrencyBundle",
+         "Name": "Event Rank 10 Bundle",
+         "Price": 899,
+         "PromoData": {
+            "EndDate": "2117-10-05T00:00:00",
+            "OfferType": "PlayerAction",
+            "StartDate": "2017-10-05T00:00:00"
+         },
+         "Rewards": [
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0021",
+               "Value": 75
+            },
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0014",
+               "Value": 400
+            },
+            {
+               "Reward": "Resources",
+               "RewardId": "darkscience",
+               "Value": 5000
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase",
+            "Bundle"
+         ]
+      },
+      {
+         "Condition": {
+            "ConditionType": "RankReached",
+            "Threshold": "12"
+         },
+         "Currency": "RM",
+         "CustomData": "{\"icon\":\"vc-ftb\"}",
+         "InternalId": "t10_lte_rank12",
+         "ItemClass": "VirtualCurrencyBundle",
+         "Name": "Event Rank 12 Bundle",
+         "Price": 999,
+         "PromoData": {
+            "EndDate": "2117-10-05T00:00:00",
+            "OfferType": "PlayerAction",
+            "StartDate": "2017-10-05T00:00:00"
+         },
+         "Rewards": [
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0016",
+               "Value": 100
+            },
+            {
+               "Reward": "Researcher",
+               "RewardId": "SF0011",
+               "Value": 500
+            },
+            {
+               "Reward": "Resources",
+               "RewardId": "darkscience",
+               "Value": 8000
+            }
+         ],
+         "Tags": [
+            "RealMoneyPurchase",
+            "Bundle"
+         ]
+      }
+   ],
+   "Trades": [
+      {
+         "ComradeAdd": 2,
+         "ComradeMultiplier": 0,
+         "CostExponent": 100,
+         "CostMultiplier": 500,
+         "MaxLevel": 149,
+         "Resource": "fuel"
+      },
+      {
+         "ComradeAdd": 4,
+         "ComradeMultiplier": 0,
+         "CostExponent": 100,
+         "CostMultiplier": 500,
+         "MaxLevel": 149,
+         "Resource": "spacerock"
+      },
+      {
+         "ComradeAdd": 6,
+         "ComradeMultiplier": 0,
+         "CostExponent": 100,
+         "CostMultiplier": 500,
+         "MaxLevel": 149,
+         "Resource": "laser"
+      }
+   ]
+}
